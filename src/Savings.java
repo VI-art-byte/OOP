@@ -5,6 +5,7 @@ public class Savings extends Account{
 
   public Savings(String name, String ssn, String balance){
     super(name,ssn,balance);
+    //check the comment
     super.accountNumber=2 + generateAccountNumber();
         setSafetyDepositBoxID(100 + (int)(Math.random() * 900));
         setSafetyDepositBoxPin(1000+ (int)(Math.random()*9000));
